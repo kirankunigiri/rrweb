@@ -468,7 +468,7 @@ function serializeNode(
     maskInputFn: MaskInputFn | undefined;
     dataURLOptions?: DataURLOptions;
     /**
-     * @deprecated please use `assetCapture` instead
+     * @deprecated please use `captureAssets` instead
      */
     inlineImages: boolean;
     recordCanvas: boolean;
@@ -638,7 +638,7 @@ function serializeElementNode(
     maskInputFn: MaskInputFn | undefined;
     dataURLOptions?: DataURLOptions;
     /**
-     * @deprecated please use `assetCapture` instead
+     * @deprecated please use `captureAssets` instead
      */
     inlineImages: boolean;
     recordCanvas: boolean;
@@ -1021,7 +1021,7 @@ export function serializeNodeWithId(
     dataURLOptions?: DataURLOptions;
     keepIframeSrcFn?: KeepIframeSrcFn;
     /**
-     * @deprecated please use `assetCapture` instead
+     * @deprecated please use `captureAssets` instead
      */
     inlineImages?: boolean;
     recordCanvas?: boolean;
@@ -1339,7 +1339,7 @@ function snapshot(
     slimDOM?: 'all' | boolean | SlimDOMOptions;
     dataURLOptions?: DataURLOptions;
     /**
-     * @deprecated please use `assetCapture` instead
+     * @deprecated please use `captureAssets` instead
      */
     inlineImages?: boolean;
     recordCanvas?: boolean;
