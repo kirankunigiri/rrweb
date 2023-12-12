@@ -13,6 +13,7 @@
     "build": "tsc -noEmit && vite build",
     "test": "vitest run",
     "test:watch": "vitest watch",
+    "test:update": "vitest run --update",
     "check-types": "tsc -noEmit",
     "prepublish": "npm run build",
     "lint": "yarn eslint src/**/*.ts"
