@@ -262,7 +262,7 @@ describe('record webgl', function (this: ISuite) {
       });
     });
 
-    await ctx.page.waitForTimeout(50);
+    await waitForRAF(ctx.page);
 
     assertSnapshot(ctx.events);
     expect(ctx.events.length).toEqual(5);
